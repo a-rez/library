@@ -1,0 +1,119 @@
+
+body {
+    font-family: "Sophia", sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+
+button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+    border: solid white 1px;
+    /*
+    margin: 1px;
+    */
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#title {
+    font-size: 25px;
+}
+
+#libraryDiv {
+    height: 300px;
+    border: solid 1px white;
+    display: flex;
+}
+
+
+#bookdiv {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 3px;
+
+    /* changing z-index breaks button */
+
+}
+
+
+#titletext {
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    flex: 6;
+    border: solid 1px white;
+    padding: 50px;
+
+    width: 49%;
+    display: block;
+
+
+}
+
+#buttondivs {
+    display: flex;
+    flex: 1;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#readbuttondiv, #deletebuttondiv {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3;
+    margin-bottom: 0;
+
+
+}
+
+#readbuttondiv {
+    display: flex;
+    flex: 1;
+
+    margin-left: 3;
+
+
+}
+
+#readbutton {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#deletebutton {
+    height: 100%;
+    width: 100%;
+}
+
+#deletebuttondiv {
+    display: flex;
+    flex: 1;
+
+
+}
+
+
+.read {
+    background: linear-gradient(135deg, #11660000 5%, #399d00 5%, #0e9402 15%, #719b9600 15%);
+    z-index: 10;
+
+}
+
+#addBookButton {
+    height: 50px;
+    width: 201px;
+
+    margin-left: 3px;
+    margin-top: 3px;
+}
